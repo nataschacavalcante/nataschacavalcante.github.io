@@ -23,6 +23,7 @@ Text Domain: darkjoe
 * 07.0 - Contact
 * 08.0 - Footer
 * 09.0 - Responsive Fixes
+* 10.0 - Pages
 * -----------------------------------------------------------------------------
 */
 
@@ -705,3 +706,12 @@ footer {
 	    left: 44%;
 	}
 }
+
+.pages {
+    max-width: 293px;
+    height: 263px;
+}
+.pages-area {
+    margin: 80px 0px 800px 0px;
+}
+
