@@ -214,19 +214,41 @@
                         </div>
                         <div class="col-sm-6">
                             <h2 class="con-title">ENTRE EM CONTATO</h2>
-                            <form role="form">
-                              <div class="form-group">
-                                <input type="text" class="form-control" id="user_name" placeholder="Seu nome...">
-                              </div>
-                              <div class="form-group">
-                                <input type="email" class="form-control" id="your_email" placeholder="Seu e-mail...">
-                              </div>
-                              <div class="form-group">
-                                <textarea name="InputMessage" id="user_message" placeholder="Escrave aqui..." class="form-control" rows="5" required></textarea>
-                              </div>
-
-                              <button type="submit" class="btn medium">Enviar</button>
-                            </form>   
+                            <form method="post" action="https://forms.un-static.com/forms/d92a09232a4e5728d85a3399b019dca6b9e14c35">
+  <div class="form-group row">
+    <label for="name" class="col-4 col-form-label">Name</label>
+    <div class="col-8">
+      <div class="input-group">
+        <div class="input-group-addon">
+          <i class="fa fa-user"></i>
+        </div>
+        <input id="name" name="name" placeholder="Seu nome" type="text" required="required" class="form-control">
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="email" class="col-4 col-form-label">E-mail address</label>
+    <div class="col-8">
+      <div class="input-group">
+        <div class="input-group-addon">
+          <i class="fa fa-envelope"></i>
+        </div>
+        <input id="your_email" name="email" placeholder="Seu endereço de e-mail" type="email" required="required" class="form-control">
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="message" class="col-4 col-form-label">Message</label>
+    <div class="col-8">
+      <textarea id="message" name="message" placeholder="Escrava aqui sua menssagem..." cols="40" rows="10" required="required" class="form-control"></textarea>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="offset-4 col-8">
+      <button name="submit" type="submit" class="btn btn-primary">Send/Enviar</button>
+    </div>
+  </div>
+</form>  
                         </div>
                     </div>
                 </div><!-- container -->
