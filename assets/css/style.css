@@ -13,8 +13,6 @@
 * 10.0 - Pages
 * -----------------------------------------------------------------------------
 */
-
-
 /* ///////////////////////////////////////////////////////////////////// 
 //  01 - Universal
 /////////////////////////////////////////////////////////////////////*/
@@ -82,11 +80,7 @@ a:hover,a:active,a:focus{
 //  02 - Header 
 /////////////////////////////////////////////////////////////////////*/
 
-header{
-	background: url(../images/bg.jpg) no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: 50% -50px;
+
 }
 .center {
     text-align: center;
@@ -207,7 +201,7 @@ header{
 	padding-top: 76px;
 }
 .service-area {
-    margin: 80px 0px 40px 0px;
+    margin: 80px 0px 0px 0px;
 }
 
 .service-wrap {
@@ -230,7 +224,7 @@ header{
     font-size: 13px;
 }
 .service-wrap h3 {
-    margin: 10px 0px;
+    margin: 50px 0px;
 }
 .pe-dj {
     font-size: 5em;
@@ -243,18 +237,19 @@ header{
 
 
 #portfolio {
+    padding: 80px 0px 0px 0px;
 	background: rgba(0, 0, 0, 0.5);
-	padding: 80px 0px 0px 0px;
 }
 
 .port {
 	list-style: none;
 	text-align: left;
-	padding-bottom: 40px;
+	padding-bottom: 0px;
 }
 
 .port .item {
 	display: inline-block;
+	
 	text-align: left;
 	position: relative;
 }
@@ -266,6 +261,7 @@ header{
 
 .port figure img {
 	max-width: 100%;
+	
 	display: block;
 	position: relative;
 }
@@ -695,13 +691,17 @@ footer {
 	}
 }
 
+/* ///////////////////////////////////////////////////////////////////// 
+//  10 - Pages
+/////////////////////////////////////////////////////////////////////*/
 .pages {
-    max-width: 293px;
+    max-width: 600px;
     height: 263px;
 }
 .pages-area {
-    margin: 80px 0px 800px 0px;
+    margin: 80px 0px 1000px 0px;
 }
+
 
 /******************************/
 
