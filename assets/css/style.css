@@ -243,7 +243,8 @@ header{
 
 
 #portfolio {
-    padding: 80px 0px 0px 0px;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 80px 0px 0px 0px;
 }
 
 .port {
