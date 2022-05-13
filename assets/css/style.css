@@ -118,6 +118,7 @@ a:hover,a:active,a:focus{
 
 #navigation{
 	background: #111;
+	opacity .2;
 }
 .nav-wrap {
 	position: fixed;
